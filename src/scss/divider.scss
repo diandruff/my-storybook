@@ -1,0 +1,27 @@
+
+.divider {
+    display: flex;
+    align-items: center;
+    
+    .divider__line--grow {
+        flex-grow: 1;
+        color: black;
+    }
+
+    .divider__line--solid {
+        border: 1px solid black;
+    }
+    .divider__line--dashed {
+        border: 1px dashed white;
+    }
+    .divider__line--dotted {
+        border: 1px dotted white;
+    }
+
+    .divider__label {
+        padding-left: .175rem;  
+        padding-right: .175rem;
+        font-size: .875rem;
+        font-weight: 300;
+    }
+}
